@@ -3,8 +3,11 @@ Spoken Language Recognition without Audio. It's my computer vision project for t
 
 Di seguito illustrerò il significato di ogni singolo script presente nell repository:
 
+Spiegazione di ciò che implementa ogni singolo script:
+
 * Conv_SIMS_MOSEI: all'interno di questo script è presente l'implementazione della rete neurale utile ad addestrare il set di dati chiamato SIMS_MOSEI
-* ConvLstm2d: Questo script contiene l'implementazione della rete usata per addestrare il set di dati chiamato BABELE
+* ConvLstm2d: questo script contiene l'implementazione della rete usata per addestrare il set di dati BABELE
+* ConvLstm2d_GS: la rete neurale implementata è sempre applicata sul set di dati BABELE, con la differenza che le immagini di input sono non a colori ma gray scale
 
 
 
